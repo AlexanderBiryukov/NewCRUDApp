@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "firstName": "ale",
+    "lastName": "al",
+    "skills": [
+      {
+        "name": "Programming language",
+        "id": 1
+      },
+      {
+        "name": "Data Structure and Algorithms",
+        "id": 2
+      },
+      {
+        "name": "Git and Github",
+        "id": 3
+      },
+      {
+        "name": "Database and SQL",
+        "id": 4
+      }
+    ],
+    "specialty": {
+      "name": "Backend Developer",
+      "id": 2
+    },
+    "status": "DELETED"
+  }
+]
