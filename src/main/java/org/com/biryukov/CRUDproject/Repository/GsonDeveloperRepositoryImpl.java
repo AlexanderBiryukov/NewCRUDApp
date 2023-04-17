@@ -3,15 +3,10 @@ package org.com.biryukov.CRUDproject.Repository;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.com.biryukov.CRUDproject.Models.Developer;
-import org.com.biryukov.CRUDproject.Models.Skill;
 import org.com.biryukov.CRUDproject.Models.Status;
 
 import java.io.*;
 import java.lang.reflect.Type;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
 import java.util.*;
 import java.util.stream.Collectors;
 

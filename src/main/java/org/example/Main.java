@@ -25,8 +25,8 @@ public class Main {
                 if ((developerController.getListAllDevelopers() == null) ||
                         developerController.getListAllDevelopers().isEmpty()) {
                     System.out.println("\nСписок разработчиков пуст");
-                    System.out.println(" Для добавления нового разработчика в список введите команду \"add\"" +
-                            "\n Для выхода введите команду \"exit\"");
+                    System.out.println(" * Для добавления нового разработчика в список введите команду \"add\"" +
+                            "\n * Для выхода введите команду \"exit\"");
 
                     String message2 = console.readLine();
                     if (message2.trim().equals("add")) {
@@ -40,10 +40,10 @@ public class Main {
 
                 } else {
                     developerController.index();  // выводится список разработчиков
-                    System.out.println(" Для добавления нового разработчика в список введите команду \"add\"");
-                    System.out.println(" Для редактирования введите команду \"update\"");
-                    System.out.println(" Для удаления введите команду \"delete\"");
-                    System.out.println(" Для выхода введите команду \"exit\"");
+                    System.out.println(" * Для добавления нового разработчика в список введите команду \"add\"");
+                    System.out.println(" * Для редактирования введите команду \"update\"");
+                    System.out.println(" * Для удаления введите команду \"delete\"");
+                    System.out.println(" * Для выхода введите команду \"exit\"");
                     String message3 = console.readLine();
 
                         switch (message3.trim()) {
