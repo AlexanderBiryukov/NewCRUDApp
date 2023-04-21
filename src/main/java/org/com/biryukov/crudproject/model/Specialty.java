@@ -1,8 +1,11 @@
-package org.com.biryukov.CRUDproject.Models;
+package org.com.biryukov.crudproject.model;
 
 public class Specialty {
-    String name;
-    long id;
+    private String name;
+    private long id;
+
+    public Specialty() {
+    }
 
     public Specialty(String name, long id) {
         this.name = name;
@@ -28,6 +31,6 @@ public class Specialty {
 
     @Override
     public String toString() {
-        return name;
+        return id + "." + name;
     }
 }

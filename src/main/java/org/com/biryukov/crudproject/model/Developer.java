@@ -1,4 +1,4 @@
-package org.com.biryukov.CRUDproject.Models;
+package org.com.biryukov.crudproject.model;
 
 import java.util.List;
 

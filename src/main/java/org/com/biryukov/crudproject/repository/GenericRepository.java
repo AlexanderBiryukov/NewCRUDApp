@@ -1,4 +1,4 @@
-package org.com.biryukov.CRUDproject.Repository;
+package org.com.biryukov.crudproject.repository;
 
 import java.util.List;
 
@@ -7,9 +7,9 @@ public interface GenericRepository<T, ID> {
 
     List<T> getAll();
 
-    void save(T en);
+    T save(T en);
 
-    void update(T en);
+    T update(T en);
 
     void deleteById(ID id);
 }

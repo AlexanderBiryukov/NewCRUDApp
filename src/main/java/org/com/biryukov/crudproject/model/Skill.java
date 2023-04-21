@@ -1,8 +1,11 @@
-package org.com.biryukov.CRUDproject.Models;
+package org.com.biryukov.crudproject.model;
 
 public class Skill {
-    String name;
-    long id;
+    private String name;
+    private long id;
+
+    public Skill() {
+    }
 
     public Skill(String name, long id) {
         this.name = name;
@@ -28,6 +31,6 @@ public class Skill {
 
     @Override
     public String toString() {
-        return name;
+        return id + "." + name;
     }
 }
